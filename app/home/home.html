@@ -1,0 +1,90 @@
+<html>
+<head>
+    <link rel="stylesheet" href="home/home.css">
+    <title>Home</title>
+
+
+</head>
+    <body>
+    <div class="frame" ng-controller="HomeCtrl">
+        <div class="top-section" style="background-image: url(../images/alban_website_background.png)">
+
+            <ul class="menu">
+                <li><a ng-click="gotoWork()">Work</a></li>
+                <li><a ng-click="gotoPublication()">Publication</a></li>
+                <li><a ng-click="gotoAssignment()">Assignment</a></li>
+                <li><a ng-click="gotoAbout()">About</a></li>
+                <li><a ng-click="gotoContact()">Contact</a></li>
+            </ul>
+
+            <div id="Home" class="text">
+                <p>Alban <br>Delamarre</p>
+            </div>
+
+
+
+        </div>
+
+
+        <div class="middle-section content">
+            <h1>Work</h1>
+            <div id="work" class="grid">
+                <a href="#!/cv" title="CV" style="position: relative; left: 0px; top: 0px;">
+                    <div class="img-icon" style="width: 300px; height: 400px; background-image: url(../images/cv.png)">
+                        <div class="overlay">Marie CV</div>
+                    </div>
+                </a>
+            </div>
+            <h1>Publication</h1>
+            <div id="publication" class="grid">
+                <a href="#!/publication" title="Publication" style="position: relative; left: 0px; top: 0px;">
+                    <div class="img-icon" style="width: 300px; height: 400px; background-image: url(../images/publications.png)">
+                        <div class="overlay">OS final report </div>
+                    </div>
+                </a>
+            </div>
+            <h1>Assignement</h1>
+            <div id="assignment" class="grid">
+                <a href="#!/assignment" title="Assignment" style="position: relative; left: 0px; top: 0px;">
+                    <div class="img-icon" style="width: 400px; height: 250px; background-image: url(../images/assignments.png)">
+                        <div class="overlay">OS presentation </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+        <div id="about" class="bottom-section">
+            <div class="content">
+                <h1>About</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in mauris vestibulum, hendrerit purus et, vehicula sem.
+                    Mauris commodo, dolor eu pharetra fermentum, mauris lectus semper tortor, sit amet aliquet mauris tellus non odio.
+                    Suspendisse et ornare leo, sit amet imperdiet ipsum. Nulla facilisi. Suspendisse sit amet augue a quam porta porttitor.
+                    Sed molestie arcu ut placerat malesuada. Etiam facilisis turpis venenatis erat rhoncus, in sagittis magna feugiat.
+                </p>
+                <p>
+                    Duis sed vulputate metus, non ornare dolor. Donec ut leo a augue sodales bibendum nec id lacus.
+                    Sed pellentesque viverra tortor sed gravida. Nam feugiat sed nisi id tempus. Morbi urna tortor, condimentum sed ex nec,
+                    consectetur porttitor ligula. Nulla interdum tortor ac diam cursus aliquam. Curabitur sit amet vehicula odio.
+                </p>
+            </div>
+            <div id="contact" class="contact">
+                <h1>Contact</h1>
+                <p>
+                    alban.delamarre@gmail.com
+                </p>
+            </div>
+
+            <div class="footer">
+                <p>
+                    © Alban Delamarre 2017. All rights reserved.
+                </p>
+            </div>
+        </div>
+
+
+
+    </div>
+    </body>
+</html>
